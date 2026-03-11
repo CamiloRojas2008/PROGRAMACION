@@ -55,3 +55,218 @@ print(Moto.obtener_nombre())
 print("Numero de llantas",Moto.obtener_llantas())
 
 print("================================================================================")
+
+print("                                   EJEMPLO 3")
+print("---------------------------------------------------------------------------------")
+
+class Comida:
+    nombre = "Bandeja Paisa"
+    origen = "Antioquia"
+    calorias = 1200
+    precio = 25000
+
+    def obtener_nombre(self):
+        return self.nombre
+    
+    def obtener_precio(self):
+        return self.precio
+    
+    def establecer_precio(self, precio):
+        self.precio = precio
+
+
+bandeja = Comida()
+bandeja.establecer_precio(30000)
+
+print("Comida:", bandeja.obtener_nombre())
+print("Precio:", bandeja.obtener_precio())
+
+print("================================================================================")
+
+print("                                   EJEMPLO 4")
+print("---------------------------------------------------------------------------------")
+
+class Arbol:
+    tipo = "Pino"
+    altura = 10
+    edad = 5
+    color = "Verde"
+
+    def obtener_tipo(self):
+        return self.tipo
+    
+    def obtener_altura(self):
+        return self.altura
+    
+    def establecer_altura(self, altura):
+        self.altura = altura
+
+
+pino = Arbol()
+pino.establecer_altura(12)
+
+print("Tipo:", pino.obtener_tipo())
+print("Altura:", pino.obtener_altura())
+
+print("================================================================================")
+
+print("                                   EJEMPLO 5")
+print("---------------------------------------------------------------------------------")
+
+class Libro:
+    titulo = ""
+    autor = "Scott Cawthon"
+    paginas = 300
+    genero = "Terror"
+
+    def obtener_titulo(self):
+        return self.titulo
+    
+    def obtener_autor(self):
+        return self.autor
+    
+    def establecer_titulo(self, titulo):
+        self.titulo = titulo
+
+
+novela = Libro()
+novela.establecer_titulo("FNAF")
+
+print("Titulo:", novela.obtener_titulo())
+print("Autor:", novela.obtener_autor())
+
+print("================================================================================")
+
+print("                                   EJEMPLO 6")
+print("---------------------------------------------------------------------------------")
+
+class Pelicula:
+    titulo = "Gigantes de Acero"
+    genero = "Accion"
+    duracion = 127
+    año = 2011
+
+    def obtener_titulo(self):
+        return self.titulo
+    
+    def obtener_año(self):
+        return self.año
+    
+    def establecer_año(self, año):
+        self.año = año
+
+
+pelicula = Pelicula()
+
+print("Titulo:", pelicula.obtener_titulo())
+print("Año:", pelicula.obtener_año())
+
+print("================================================================================")
+
+print("                                   EJEMPLO 7")
+print("---------------------------------------------------------------------------------")
+
+class Dispositivo:
+    tipo = "Portatil"
+    marca = ""
+    memoria = "16GB"
+    procesador = "Intel i5"
+
+    def obtener_tipo(self):
+        return self.tipo
+    
+    def obtener_marca(self):
+        return self.marca
+    
+    def establecer_marca(self, marca):
+        self.marca = marca
+
+
+portatil = Dispositivo()
+portatil.establecer_marca("Asus")
+
+print("Tipo:", portatil.obtener_tipo())
+print("Marca:", portatil.obtener_marca())
+
+print("================================================================================")
+
+print("                                   EJEMPLO 8")
+print("---------------------------------------------------------------------------------")
+
+class Servicio:
+    tipo = "Energia"
+    empresa = ""
+    costo = 50000
+    cobertura = "Nacional"
+
+    def obtener_tipo(self):
+        return self.tipo
+    
+    def obtener_empresa(self):
+        return self.empresa
+    
+    def establecer_empresa(self, empresa):
+        self.empresa = empresa
+
+
+energia = Servicio()
+energia.establecer_empresa("Codensa")
+
+print("Servicio:", energia.obtener_tipo())
+print("Empresa:", energia.obtener_empresa())
+
+print("================================================================================")
+
+print("                                   EJEMPLO 9")
+print("---------------------------------------------------------------------------------")
+
+class Empaque:
+    tipo = "Caja"
+    material = "Carton"
+    tamaño = "Mediana"
+    peso = "1kg"
+
+    def obtener_tipo(self):
+        return self.tipo
+    
+    def obtener_material(self):
+        return self.material
+    
+    def establecer_material(self, material):
+        self.material = material
+
+
+caja = Empaque()
+caja.establecer_material("Carton reciclado")
+
+print("Tipo:", caja.obtener_tipo())
+print("Material:", caja.obtener_material())
+
+print("================================================================================")
+
+print("                                   EJEMPLO 10")
+print("---------------------------------------------------------------------------------")
+
+class Persona:
+    nombre = ""
+    edad = 17
+    ocupacion = "Estudiante"
+    ciudad = "Floridablanca"
+
+    def obtener_nombre(self):
+        return self.nombre
+    
+    def obtener_ciudad(self):
+        return self.ciudad
+    
+    def establecer_nombre(self, nombre):
+        self.nombre = nombre
+
+
+estudiante = Persona()
+estudiante.establecer_nombre("Camilo")
+
+print("Nombre:", estudiante.obtener_nombre())
+print("Ciudad:", estudiante.obtener_ciudad())
+
+print("================================================================================")
