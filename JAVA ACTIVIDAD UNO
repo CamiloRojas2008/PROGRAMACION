@@ -1,0 +1,53 @@
+package pack;
+
+import java.util.Scanner;
+
+public class InformacionPersonal {
+
+	public static void main(String[] args) {	
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Camilo\n"
+				+ "17 años\n"
+				+ "Ing.Mecatronica");
+
+		System.out.println("-----------------------------------------------------------");
+
+		String nombre="Camilo";
+		int edad=17;
+		String carrera="Ing Mecatronica";
+
+		System.out.println(nombre +"\n" +edad +"\n" +carrera);
+
+		System.out.println("-----------------------------------------------------------");
+
+		System.out.println("Hola joven como te llamas?");
+		nombre=sc.nextLine();
+
+		System.out.println("Que edad tienes?");
+		//edad=sc.nextInt();
+		//sc.nextLine();
+
+		edad=Integer. parseInt(sc.nextLine());
+
+		System.out.println("que carrera estas cursando?");
+		carrera=sc.nextLine();
+
+		System.out.println("el/la joven " +nombre +"\n"+ "Que cuenta con "+edad +"\n" +"esta cursando la carrera de "+carrera);
+
+		int opcion = menu();
+		System.out.println("la opcion seleccionada es" + opcion);
+	}
+	public static int menu() {
+		Scanner sc = new Scanner(System.in);
+		int opcion = -1;
+
+		while (opcion != 0) {
+			System.out.println("--- MENÚ DE OPCIONES ---");
+			System.out.println("1. Opción uno");
+			System.out.println("2. Opción dos");
+			System.out.println("3. Salir");
+			System.out.print("Seleccione el numero asignado a la opcion que desee seguir ");
+		}
+		return opcion;
+	}
+}
