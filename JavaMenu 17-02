@@ -1,3 +1,7 @@
+----------------------------------------------------------------------------------------------------------
+JAVA
+----------------------------------------------------------------------------------------------------------
+
 package Main;
 
 import java.util.Scanner;
@@ -47,3 +51,20 @@ public class Main {
 		System.out.println("Opcion seleccionada " +opcion);
 	}
 }
+---------------------------------------------------------------------------------------------------------------
+PYTHON
+------------------------------------------------------------------------------------------------------------------
+def mostrarMenu():
+    print("===== MENÚ =====")
+    print("1. Ingresar datos")
+    print("2. Mostrar datos")
+    print("3. Salir")
+    
+    opcion = int(input("Seleccione una opción: "))
+    return opcion
+
+
+
+if __name__ == "__main__":
+    opcion = mostrarMenu()
+    print(" la Opción seleccionada fue la:", opcion)
