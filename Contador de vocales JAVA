@@ -22,3 +22,36 @@ public class contador {
         scanner.close();
     }
 }
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+package vocales;
+import java.util.Scanner;
+
+public class vocales {
+	 static Scanner scanner = new Scanner(System.in);
+	 public static void main(String[] args) {
+		
+	    
+		System.out.println("Ingrese una cadena: ");
+	    String cadena =scanner.nextLine();
+	   
+	    String vocales = "aeiou";
+	    int contador = 0;
+	    cadena=cadena.toLowerCase();
+	    System.out.println(cadena);
+	    
+	    for (int i = 0; i < cadena.length(); i++) {
+	    	char a=cadena.charAt(i);
+	    	System.out.println(a);
+	    	if ((a=='a')||(a=='e')||(a=='i')||(a=='o')||(a=='u')) {
+	    		
+	    	//}
+           // if (vocales.indexOf(cadena.charAt(i)) != -1) {
+                contador++;
+            }
+	    	//cadena.
+        }
+
+        System.out.println("Número de vocales: " + contador);
+        scanner.close();
+    }
+}
