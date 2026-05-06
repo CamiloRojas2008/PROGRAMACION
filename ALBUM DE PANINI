@@ -1,0 +1,91 @@
+-----------------------------------------
+LAMINAS
+-----------------------------------------
+
+
+package paq2;
+
+public class Laminas {
+
+	private String nombreJug;
+	private int numeroPeg;
+	private String nombreEquipo;
+	private String letraEquipo; 
+	private String grupo;
+	private boolean esEspecial;
+	private int cantidad;
+
+
+
+	public Laminas(String nombreJug, int numeroPeg, String nombreEquipo, String letraEquipo,String grupo,boolean esEspecial) {
+		this.nombreJug=nombreJug;
+		this.numeroPeg=numeroPeg;
+		this.letraEquipo=letraEquipo;
+		this.grupo=grupo;
+		this.esEspecial=esEspecial;
+		this.cantidad=0;
+	}
+
+
+	public String getNombre() {
+		return nombreJug;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+	}
+
+
+	public String setEquipo(String nombreEquipo) {
+		return nombreEquipo;
+
+	}
+
+	public String getLetra() {
+		return letraEquipo;
+
+	}
+
+	public String getGrupo() {
+		return grupo;
+
+	}
+
+	public int getPegatina() {
+		return numeroPeg;
+
+
+
+	}
+
+
+
+
+}
+
+-----------------------------------------------------
+EQUIPO
+-----------------------------------------------------
+package paq2;
+
+
+public class Equipo {
+
+	private String nombre;
+	private String letras;
+	private String grupos;
+	
+public void Equipos(String nombre,String letras,String grupo,int numeroPeg, String grupos) {
+	this.nombre = nombre;
+	this.letras=letras;
+	this.grupos=grupos;
+	
+	
+	
+	
+	
+}
+	
+
+	
+	}
+	
+
+
